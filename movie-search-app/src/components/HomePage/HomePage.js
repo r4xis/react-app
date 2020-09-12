@@ -14,12 +14,7 @@ class HomePage extends Component {
 
   fetchApi = (search) => {
     fetch("http://www.omdbapi.com/?apikey=c2470fe1&s=" + search)
-      .then((response) => {
-        if (response.status >= 400 && response.status < 1000) {
-          throw new Error(response.status);
-        }
-        return response.json();
-      })
+      .then((response) => response.json())
       .then((data) => this.setState({ data: data.Search }))
       .catch((e) => console.log("Connection error", e));
   };
@@ -78,38 +73,6 @@ class HomePage extends Component {
           page1OnClick={this.page1OnClick}
           page2OnClick={this.page2OnClick}
         />
-        {/*this.state.submitCheck &&
-        this.state.data.filter((movie) => movie.Poster !== "N/A").length > 5 ? (
-          <div className="pagination">
-            <a
-              className="page1"
-              id="page1"
-              href="/#"
-              onClick={this.page1OnClick}
-              style={{
-                backgroundColor: !this.state.firstItem
-                  ? "rgb(15, 152, 197)"
-                  : "#fff",
-                color: !this.state.firstItem ? "#fff" : "rgb(15, 152, 197)",
-              }}
-            >
-              1
-            </a>
-            <a
-              className="page2"
-              href="/#"
-              onClick={this.page2OnClick}
-              style={{
-                backgroundColor: this.state.firstItem
-                  ? "rgb(15, 152, 197)"
-                  : "#fff",
-                color: this.state.firstItem ? "#fff" : "rgb(15, 152, 197)",
-              }}
-            >
-              2
-            </a>
-          </div>
-            ) : null*/}
       </div>
     );
   }
