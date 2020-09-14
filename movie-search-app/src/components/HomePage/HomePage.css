@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+button:focus,
 input:focus {
   outline: none;
 }
@@ -122,4 +123,8 @@ body {
 
 .pagination .page2 {
   padding: 0.6em 0.7em 0.3em 0.7em;
+}
+
+#cannot-find {
+  text-align: center;
 }
