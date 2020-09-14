@@ -43,7 +43,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Component Hierarchy
 
-![component-hierarchy](https://user-images.githubusercontent.com/16120472/92964396-ae8fc080-f47c-11ea-86e1-e4d0aabe32d2.PNG)
+![componentHierarchy](https://user-images.githubusercontent.com/16120472/93039100-53fa8e00-f64f-11ea-9bd2-b2e2b64a645c.PNG)
 
 ### Home Page
 
@@ -59,6 +59,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ![home3](https://user-images.githubusercontent.com/16120472/92964425-b9e2ec00-f47c-11ea-9bda-fa7a31587571.PNG)
 
+#### Not Found Notification
+
+![notfound](https://user-images.githubusercontent.com/16120472/93039107-58bf4200-f64f-11ea-8116-0c347489c221.PNG)
+
 ### Second Page
 
+#### Movie Info
+
 ![movie-info](https://user-images.githubusercontent.com/16120472/92964435-bea7a000-f47c-11ea-9a09-5b7a141970ff.PNG)
+
+#### Loading
+
+![loading](https://user-images.githubusercontent.com/16120472/93039117-5bba3280-f64f-11ea-8ea7-5db7fe1a6f5e.PNG)
+
