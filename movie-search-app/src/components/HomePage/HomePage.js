@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import SearchBar from "./SearchBar";
 import SearchResults from "./SearchResults";
 import Pagination from "./Pagination";
-import CannotFind from "./CannotFind";
+import NotFound from "./NotFound";
 import "./HomePage.css";
 
 class HomePage extends Component {
@@ -50,7 +50,7 @@ class HomePage extends Component {
     if (this.state.data === undefined) {
       return (
         <div>
-          <CannotFind search={this.state.searchValue} />
+          <NotFound search={this.state.searchValue} />
           <SearchBar
             handleSubmit={this.handleSubmit}
             handleChange={this.handleChange}
