@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SearchBar from "./SearchBar";
 import SearchResults from "./SearchResults";
 import Pagination from "./Pagination";
+import CannotFind from "./CannotFind";
 import "./HomePage.css";
 
 class HomePage extends Component {
@@ -46,6 +47,17 @@ class HomePage extends Component {
   };
 
   render() {
+    if (this.state.data === undefined) {
+      return (
+        <div>
+          <CannotFind search={this.state.searchValue} />
+          <SearchBar
+            handleSubmit={this.handleSubmit}
+            handleChange={this.handleChange}
+          />
+        </div>
+      );
+    }
     return (
       <div>
         <SearchBar
