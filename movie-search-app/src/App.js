@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HomePage from "./components/HomePage/HomePage";
-import MovieInfo from "./components/MovieInfo/MovieInfo";
+import SecondPage from "./components/SecondPage/SecondPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
         <div>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/movie-info" component={MovieInfo} />
+            <Route path="/movie-info" component={SecondPage} />
           </Switch>
         </div>
       </Router>
