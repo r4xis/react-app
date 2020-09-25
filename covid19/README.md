@@ -1,4 +1,4 @@
-# Covid 19 Updated Numbers
+# Covid 19 Updated Numbers Web App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
