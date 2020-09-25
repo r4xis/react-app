@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+#Navbar {
+  font-family: "Arimo", sans-serif;
+  background-color: rgb(211, 211, 211);
+  color: white;
+  height: 6em;
+}
+
+#Navbar .items {
+  display: flex;
+  margin: auto 25em;
+  padding: 0.2em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Navbar img {
+  width: 5em;
+}
+
+#Navbar ul {
+  display: flex;
+  position: relative;
+  width: 15em;
+  height: 5.5em;
+  list-style-type: none;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#Navbar ul li a {
+  position: absolute;
+  padding: 0.5em;
+  margin: 1.75em auto;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#Navbar ul li .github {
+  right: 3em;
+  width: 8em;
+}
+
+#Navbar ul li a:hover {
+  color: rgb(23, 84, 134);
+}
+
+#App #main-top {
+  display: flex;
+  margin: 5em 25em;
+  align-items: center;
+}
+
+#App #main-top #World {
+  font-family: "Nunito", sans-serif;
+  margin: 5em;
+  text-align: center;
+}
+
+#App #main-top #World .headers {
+  font-weight: 300;
+  font-size: 40px;
+  color: rgb(66, 66, 66);
+}
+
+#App #main-top #World .numbers {
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 0.5em;
+}
+
+#App #main-top #World .cases {
+  color: rgb(105, 105, 105);
+}
+
+#App #main-top #World .deaths {
+  color: rgb(190, 49, 49);
+}
+
+#App #main-top #World .recovered {
+  color: rgb(66, 190, 42);
+}
+
+#App #main-top #Sidebar {
+  border: 1px solid rgba(182, 182, 182, 0.623);
+}
+
+#App #main-top #Sidebar p {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+#App #main-top #News {
+  width: 350px;
+  margin: 0.5em;
+  background-color: #f7f7f7;
+}
+
+#App #main-top #News a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#App #main-top #News img {
+  width: 150px;
+  height: 100px;
+}
+
+#App #main-top #News img:hover {
+  transform: scale(1.05);
+}
+
+#App #main-top #News p {
+  margin: 0.2em 0.5em;
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  color: #000;
+}
+
+#App #main-bottom #Table {
+  margin: 5em 25em;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 0.87em;
+  table-layout: fixed;
+  font-weight: 600;
+}
+
+#App #main-bottom #Table .body:hover {
+  background-color: rgb(99, 99, 99);
+}
+
+#App #main-bottom #Table td:nth-child(even) {
+  background-color: #c4c4c4da;
+}
+
+#App #main-bottom #Table td:nth-child(odd) {
+  background-color: #ebebebda;
+}
+
+#App #main-bottom #Table td:nth-child(7) {
+  background-color: rgba(190, 0, 0, 0.9);
+  color: white;
+}
+
+#App #main-bottom #Table th {
+  padding: 10px 16px;
+  background-color: #36374b9a;
+  color: white;
+}
+
+#Table td,
+#Table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Footer {
+  font-family: "Arimo", sans-serif;
+  background-color: rgb(211, 211, 211);
+  color: white;
+  height: 8em;
+}
+
+#Footer .items {
+  margin: auto 25em;
+  padding: 0.2em;
+}
+
+#Footer ul {
+  display: flex;
+  position: relative;
+  width: 15em;
+  height: 5.5em;
+  left: 45em;
+  list-style-type: none;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#Footer ul li a {
+  position: absolute;
+  padding: 0.5em;
+  margin: 3em auto;
+  margin-left: 1.5em;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#Footer ul li a:hover {
+  color: rgb(23, 84, 134);
+  text-decoration: underline;
+}
+
+#Footer ul li .api-2 {
+  right: 3em;
+  width: 8em;
+}
+
+#Loading {
+  text-align: center;
+  margin: auto 3em;
+}
+
+.loading-left,
+.loading-right {
+  width: 40em;
+}
