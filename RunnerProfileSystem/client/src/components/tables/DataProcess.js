@@ -6,8 +6,8 @@ import Display from "./Display";
 import Spinner from "react-bootstrap/Spinner";
 
 const DataProcess = () => {
-  const [pace, isLoadingPace] = FetchData("http://localhost:5000/pace");
-  const [users, isLoadingUsers] = FetchData("http://localhost:5000/users");
+  const [pace, isLoadingPace] = FetchData("/pace");
+  const [users, isLoadingUsers] = FetchData("/users");
   const mergedObjects = MergeObjects(users, pace);
   const [youngs, middleAges, olds] = Categorization(mergedObjects);
 
