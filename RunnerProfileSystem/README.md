@@ -11,7 +11,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm install`
 
-Install the dependencies that specified in the package.json for server side. But you must install the dependencies for two sides(client and server) to run app. For that, you can run the below code in terminal;
+Install the dependencies that specified in the package.json for server side. But you must install the dependencies for two sides(client and server) to run app. Therefore, you can run the below code in terminal;
 
 ```
 $ npm i; cd client; npm i; cd ..
