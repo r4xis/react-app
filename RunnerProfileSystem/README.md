@@ -1,5 +1,8 @@
 # RUNNER PROFILE SYSTEM
 
+I used express for backend and react for frontend in this project.<br />
+**Note:** Sorting is change in the table if you click on orange arrow buttons.
+
 ## Available Scripts
 
 In the project directory, you can run:
