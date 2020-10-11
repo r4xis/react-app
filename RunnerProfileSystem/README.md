@@ -29,10 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Links
 
-[https://murmuring-cliffs-09625.herokuapp.com/](https://murmuring-cliffs-09625.herokuapp.com/)
-
 [download source code](https://github.com/r4xis/react-apps/tree/master/RunnerProfileSystem)
 
 ## Screenshot
 
-![ss](https://user-images.githubusercontent.com/16120472/95680461-ac876180-0be2-11eb-9439-f0edb3bf93c4.PNG)
