@@ -81,7 +81,7 @@ const Display = (props) => {
                   {distance} m
                 </td>
                 <td className={sortCondition === "avg_pace" ? "bold" : null}>
-                  {avg_pace} km
+                  {avg_pace.toString().replace(".", ":")} per km
                 </td>
               </tr>
             </tbody>
