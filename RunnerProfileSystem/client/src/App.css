@@ -37,7 +37,6 @@ button:focus {
 
 .spinner {
   position: relative;
-  top: -101px;
   z-index: +1;
   display: flex;
   justify-content: center;
@@ -47,6 +46,8 @@ button:focus {
   background-color: rgba(150, 150, 150, 0.75);
   color: #fff;
   text-align: center;
+  margin-top: -105px;
+  margin-bottom: -80px;
 }
 
 .spinner p {
