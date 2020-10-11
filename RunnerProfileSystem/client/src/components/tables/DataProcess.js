@@ -22,7 +22,6 @@ const DataProcess = () => {
     );
   return (
     <div>
-      <h1>RUNNER LEADERBOARDS</h1>
       <div id="Tables">
         <div>
           <h3>Youngs</h3>
