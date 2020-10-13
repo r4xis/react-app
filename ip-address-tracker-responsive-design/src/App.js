@@ -6,15 +6,15 @@ import Map from "./components/map/Map";
 
 const App = () => {
   const staticIpUrl =
-    "https://geo.ipify.org/api/v1?apiKey=at_35hGAZ5fnaqYSZcWsa7JOLweMIsos&ipAddress=";
+    "https://geo.ipify.org/api/v1?apiKey=[YOUR_API]&ipAddress=";
   const staticDomainUrl =
-    "https://geo.ipify.org/api/v1?apiKey=at_35hGAZ5fnaqYSZcWsa7JOLweMIsos&domain=";
+    "https://geo.ipify.org/api/v1?apiKey=[YOUR_API]&domain=";
   const [data, setData] = useState([]);
   const [ip, setIp] = useState(
-    "https://geo.ipify.org/api/v1?apiKey=at_35hGAZ5fnaqYSZcWsa7JOLweMIsos&ipAddress="
+    "https://geo.ipify.org/api/v1?apiKey=[YOUR_API]&ipAddress="
   );
   const [domain, setDomain] = useState(
-    "https://geo.ipify.org/api/v1?apiKey=at_35hGAZ5fnaqYSZcWsa7JOLweMIsos&domain="
+    "https://geo.ipify.org/api/v1?apiKey=[YOUR_API]&domain="
   );
   const [ipOrDomain, setIpOrDomain] = useState("");
 
