@@ -35,6 +35,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Screenshots
 
-![Ekran Alıntısı 3](https://user-images.githubusercontent.com/16120472/99419596-56a68780-290d-11eb-9eb0-728ccc1a1dbc.PNG)
-![Ekran Alıntısı](https://user-images.githubusercontent.com/16120472/99419619-5c9c6880-290d-11eb-95fe-c19b42ea3309.PNG)
-![Ekran Alıntısı 2](https://user-images.githubusercontent.com/16120472/99419645-61f9b300-290d-11eb-8e6c-acfb642c8633.PNG)
+![Ekran Alıntısı 3](https://user-images.githubusercontent.com/16120472/99421113-16e09f80-290f-11eb-8d2c-1564f649c64b.PNG)
+![Ekran Alıntısı](https://user-images.githubusercontent.com/16120472/99421124-19db9000-290f-11eb-91f4-926a4e651df1.PNG)
+![Ekran Alıntısı 2](https://user-images.githubusercontent.com/16120472/99421131-1ba55380-290f-11eb-8d4b-08b9814060b1.PNG)
