@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header header header header header header header header header"
+    "header header header header header header header header header"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "sidebar sidebar main main main main main main main"
+    "footer footer footer footer footer footer footer footer footer"
+    "footer footer footer footer footer footer footer footer footer";
+  background-color: #000011;
+}
+
+#Navbar {
+  background-color: #000011;
+  grid-area: header;
+}
+
+#Footer {
+  background-color: #000011;
+  grid-area: footer;
+}
+
+#Sidebar {
+  background-color: #000011;
+  grid-area: sidebar;
+  align-items: left;
+}
+
+#Sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#Main {
+  background-color: #060c24;
+  grid-area: main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table tr td,
+tr th {
+  color: #fff;
+  padding: 0.5em;
+}
+
+.table thead {
+  background-color: #000011;
+}
+
+.table tbody:nth-child(even) {
+  background-color: #060c24;
+}
+
+.table tbody:nth-child(odd) {
+  background-color: #000011;
+}
+
+.card {
+  background-color: #fff;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.cardText span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cardBody {
+  margin: 10px;
+}
